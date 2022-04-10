@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+*{
+    margin: 0px auto;
+}
+
+
+.header-banner{
+    background-color: #a19797;
+    color: white;
+    font-size: 5px;
+    border: 1px solid #a19797;
+    text-align: end;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+    
+}
+
+.logo i{
+    font-size: 28px;
+}
+
+.img{
+    width: 30%;
+    text-align: center;
+}
+.login{
+    width: 30%;
+    text-align: center;
+
+}
+
+.login .icon-login{
+    font-size: 28px;
+    padding: 5px;
+}
+
+.icon-carrito{
+    font-size: 25px;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.titulo h1{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+}
+
+.titulo p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo span{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.producto{
+    width: 100vw;
+    height: auto;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.detalle .imagen-producto{
+    width: 40%;
+}
+
+.detalle .info-producto{
+    width: 50%;
+}
+
+.info-producto h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info-producto p{
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 26px;
+}
+
+.info-producto .btn{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px 12px;
+    
+
+
+}
+img{
+    width: 100%;
+}
